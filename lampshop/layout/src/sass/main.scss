@@ -1,0 +1,20 @@
+@import "blocks/slick.scss";
+@import "blocks/slick-theme.scss";
+@import "blocks/vars.scss";
+
+* {
+	@include null;
+}
+
+body {
+	font-family: $family;
+	background-color: $blue;
+}
+
+@import "blocks/global.scss";
+@import "blocks/header.scss";
+@import "blocks/jumbotron.scss";
+
+
+
+

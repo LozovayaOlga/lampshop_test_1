@@ -1,0 +1,92 @@
+@import "vars.scss";
+
+//=======section.header__contucts==========//
+header {
+	background-color: $white;
+	padding-bottom: 20px;
+}
+.header__contucts {
+	@include flex(row, space-between);
+	padding: 20px 0 20px 0;
+}
+
+.adress__contucts {
+	@include flex(row, flex-start);
+}
+
+.adress__link {
+	@include font(17px, 600, $gray);
+	line-height: 16px;
+	transition: color 0.2s ease-in;
+	&:hover {
+		color: $orange;
+	}
+}
+
+.header__letter::before {
+	content: '';
+	background-image: url(img/sprite/sprite.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 24px;
+	height: 14px;
+	background-position: -43px -131px;
+	float: left;
+	margin-right: 14px;
+	margin-left: 14px;
+}
+
+.header__phone::before {
+	content: '';
+	background-image: url(img/sprite/sprite.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 22px;
+	height: 14px;
+	background-position: -331px -131px;
+	float: left;
+	margin-right: 14px;
+	margin-left: 20px;
+}
+
+.social-list {
+	@include flex(row, space-between);
+}
+
+.social-list__item {
+	margin-right: 12px;
+	&:active {
+		transform: scale(.9, .9);}
+}
+
+.social-list__item:first-child:hover 
+	.icon-facebook {
+		background-position: -270px -34px;
+		opacity: 0.7;
+	}
+
+
+.social-list__item:nth-child(2):hover 
+	.icon-twitter {
+		background-position: -4px -158px;
+		opacity: 0.7;
+	}
+
+
+.social-list__item:nth-child(3):hover 
+	.icon-google {
+		background-position: -4px -61px;
+	}
+
+
+.social-list__item:last-child:hover 
+	.icon-instegram {
+		background-position: -60px -61px;
+		opacity: 0.7;
+	}
+	
+@import "nav.scss";
+
+
+
+

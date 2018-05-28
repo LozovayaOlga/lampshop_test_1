@@ -1,0 +1,47 @@
+header
+	.container
+		section.header__contucts
+			//h1.none Где купить люстры, светильники, лампы//
+			.adress__contucts
+				a.adress__link.header__letter(href="mailto:lampshop@gmail.com") lampshop@gmail.com
+
+				a.adress__link.header__phone(href="tel:8(4212)345-456") 8(4212)345-456
+			.social-list
+				a.social-list__item(href="#")
+					i.icon.icon-facebook
+				a.social-list__item(href="#")
+					i.icon.icon-twitter
+				a.social-list__item(href="#")
+					i.icon.icon-google
+				a.social-list__item(href="#")
+					i.icon.icon-instegram
+		nav.nav
+			//h1.none Гипермаркет света LampShop Каталог, Распродажа, купить//
+			ul.nav__list
+				li.nav__logo
+					a.logo(href="index.html")
+						img(src="img/logo.png", alt="логотип LampShop")
+				li.nav__item
+					a.nav__link(href="index.html") Главная   
+				li.nav__item
+					a.nav__link(href="#") Каталог
+				li.nav__item
+					a.nav__link(href="#") Распродажа
+				li.nav__item
+					a.nav__link(href="#") Доставка 
+				li.nav__item
+					a.nav__link(href="#") О нас 
+				li.nav__item
+					a.nav__link(href="#") Контакты
+			
+			.user-box
+				form(id="search-form", action="#", method="get")
+					input(class="search-text" type="search", name="q", id="input-search", autocomplete="off" placeholder="Поиск по сайту")
+					button.btn-search(type="submit")
+				a.login-link(href="#")
+					i.icon.icon-user
+				a.cart-link(href="#")
+					i.icon.icon-cart_small
+				
+
+					

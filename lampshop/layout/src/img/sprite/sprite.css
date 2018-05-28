@@ -1,0 +1,179 @@
+.icon {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.icon-buy {
+    width: 36px;
+    height: 34px;
+    background-position: -4px -4px;
+}
+
+.icon-buy_h {
+    width: 36px;
+    height: 34px;
+    background-position: -48px -4px;
+}
+
+.icon-buy_small {
+    width: 22px;
+    height: 21px;
+    background-position: -92px -4px;
+}
+
+.icon-buy_small_h {
+    width: 22px;
+    height: 21px;
+    background-position: -122px -4px;
+}
+
+.icon-cart {
+    width: 51px;
+    height: 36px;
+    background-position: -152px -4px;
+}
+
+.icon-cart_h {
+    width: 51px;
+    height: 36px;
+    background-position: -211px -4px;
+}
+
+.icon-cart_small {
+    width: 25px;
+    height: 22px;
+    background-position: -270px -4px;
+}
+
+.icon-cart_small_h {
+    width: 25px;
+    height: 22px;
+    background-position: -92px -34px;
+}
+
+.icon-facebook {
+    width: 10px;
+    height: 19px;
+    background-position: -125px -34px;
+}
+
+.icon-facebook_h {
+    width: 10px;
+    height: 19px;
+    background-position: -270px -34px;
+}
+
+.icon-google {
+    width: 20px;
+    height: 19px;
+    background-position: -288px -34px;
+}
+
+.icon-google_h {
+    width: 20px;
+    height: 19px;
+    background-position: -4px -61px;
+}
+
+.icon-instegram {
+    width: 20px;
+    height: 19px;
+    background-position: -32px -61px;
+}
+
+.icon-instegram_h {
+    width: 20px;
+    height: 19px;
+    background-position: -60px -61px;
+}
+
+.icon-label_best {
+    width: 150px;
+    height: 119px;
+    background-position: -125px -61px;
+}
+
+.icon-label_new {
+    width: 150px;
+    height: 119px;
+    background-position: -4px -188px;
+}
+
+.icon-label_sale {
+    width: 150px;
+    height: 119px;
+    background-position: -316px -4px;
+}
+
+.icon-letter_big {
+    width: 31px;
+    height: 19px;
+    background-position: -4px -131px;
+}
+
+.icon-letter_small {
+    width: 24px;
+    height: 14px;
+    background-position: -43px -131px;
+}
+
+.icon-like {
+    width: 40px;
+    height: 33px;
+    background-position: -75px -131px;
+}
+
+.icon-like_h {
+    width: 40px;
+    height: 33px;
+    background-position: -283px -131px;
+}
+
+.icon-logo {
+    width: 185px;
+    height: 36px;
+    background-position: -162px -188px;
+}
+
+.icon-phone_small {
+    width: 22px;
+    height: 14px;
+    background-position: -331px -131px;
+}
+
+.icon-search {
+    width: 24px;
+    height: 22px;
+    background-position: -361px -131px;
+}
+
+.icon-search_h {
+    width: 24px;
+    height: 22px;
+    background-position: -393px -131px;
+}
+
+.icon-twitter {
+    width: 19px;
+    height: 19px;
+    background-position: -425px -131px;
+}
+
+.icon-twitter_h {
+    width: 19px;
+    height: 19px;
+    background-position: -4px -158px;
+}
+
+.icon-user {
+    width: 20px;
+    height: 23px;
+    background-position: -425px -158px;
+}
+
+.icon-user_h {
+    width: 20px;
+    height: 23px;
+    background-position: -355px -189px;
+}
