@@ -1,0 +1,85 @@
+@import "vars.scss";
+.new-product {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-bottom: 75px;
+}
+
+.new-product__title-box{
+	text-align: left;
+	padding: 10px 0 65px 0; 
+	@include flex(row, center);
+}
+
+
+.title-box__text{
+	@include font(24px, 700, $gray);
+    position: relative;
+	display: inline-block;
+}
+.title-box__text--color {
+	color:$orange;
+}
+
+.title-box__text::before{
+	content: '';
+	background-image: url(img/sprite/sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+	width: 150px;
+    height: 119px;
+    background-position: -4px -188px;
+    position: absolute;
+	top: 0;
+	left: -135px;
+}
+
+.title-box__description{
+	@include font(17px, 400, $gray);
+}
+
+
+
+
+
+
+
+
+
+
+.card {
+	background-color: $white;
+	max-width: 270px;
+	padding: 10px;
+	box-shadow: 3px 3px 3px -2px $gray;
+}
+
+.card__img-link{
+	margin-bottom: 5px;
+}
+.card__img-link:hover {
+	cursor: zoom-in;
+	filter: brightness(1.4);
+}
+
+.card__product-link {
+	text-align: center;
+}
+
+.card__title{
+	@include font(18px, 600, $gray);
+}
+
+.card__price{
+	@include font(18px, 400, $orange);
+}
+
+.card__product-link:hover{
+	.card__title{
+	@include font(18px, 600, $orange);
+	}
+
+	.card__price{
+	@include font(18px, 400,$gray );
+	}
+}
