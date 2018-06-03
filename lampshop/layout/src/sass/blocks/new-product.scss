@@ -51,30 +51,26 @@
 	background-color: $white;
 	max-width: 270px;
 	padding: 10px;
-	box-shadow: 3px 3px 3px -2px $gray;
+	
+	margin: 5px;
 }
 
-.card__img-link{
-	margin-bottom: 5px;
-}
-.card__img-link:hover {
-	cursor: zoom-in;
-	filter: brightness(1.4);
-}
 
-.card__product-link {
+.card__product-text {
 	text-align: center;
+	padding-top: 10px;
 }
 
 .card__title{
 	@include font(18px, 600, $gray);
+	min-height: 60px;
 }
 
 .card__price{
 	@include font(18px, 400, $orange);
 }
 
-.card__product-link:hover{
+.card__link:hover{
 	.card__title{
 	@include font(18px, 600, $orange);
 	}
@@ -82,4 +78,39 @@
 	.card__price{
 	@include font(18px, 400,$gray );
 	}
+	.card__img {
+		filter:brightness(1.4);
+	}
+	
+}
+
+.card__buy-box	{
+	@include flex(row, space-around);
+	padding-top: 10px;
+}
+
+.card-buy{
+	width: 36px;
+    height: 34px;
+    background-position: -4px -4px;
+}
+.card-buy:hover{
+	background-position: -48px -4px;
+	}
+
+.card-like{
+	width: 40px;
+    height: 33px;
+    background-position: -75px -131px;
+}
+
+.card-like:hover{
+	background-position: -283px -131px;
+}
+
+hr{
+	border: none;
+	height: 1px;
+	color: lighten($orange, 35%);
+	background-color:lighten($orange, 35%);
 }
