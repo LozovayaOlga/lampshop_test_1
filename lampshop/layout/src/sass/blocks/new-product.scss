@@ -79,7 +79,7 @@
 	@include font(18px, 400,$gray );
 	}
 	.card__img {
-		filter:brightness(1.4);
+		filter:brightness(1.2);
 	}
 	
 }
@@ -114,3 +114,6 @@ hr{
 	color: lighten($orange, 35%);
 	background-color:lighten($orange, 35%);
 }
+
+ 
+
