@@ -16,6 +16,7 @@
 	@include font(24px, 700, $gray);
     position: relative;
 	display: inline-block;
+	text-transform: uppercase;
 }
 .title-box__text--color {
 	color:$orange;
@@ -36,6 +37,7 @@
 
 .title-box__description{
 	@include font(17px, 400, $gray);
+	text-transform: lowercase;
 }
 
 

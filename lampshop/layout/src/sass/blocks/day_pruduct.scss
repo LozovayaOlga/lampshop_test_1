@@ -1,0 +1,85 @@
+@import "vars.scss";
+.day-product {
+	padding: 90px 0;
+	
+}
+.day-product__wrap {
+	@include flex(row, space-between);
+	
+}
+
+
+
+
+.day-product__banner {
+	background-color: $white;
+	padding: 15px;
+	flex-grow: 2;
+	margin-right: 20px;
+	@include flex(row, space-around);
+	align-items: center ;
+}
+
+.day-product__text {
+	@include font(22px, 700, $orange);
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 150px;
+	
+}
+
+.day-product__description{
+	@include font(17px, 400, $gray);
+	text-transform: lowercase;
+}
+
+.day-product__sale {
+	@include font(40px, 700, $red);
+}
+
+.day-product__text::before{
+	content: '';
+	background-image: url(img/sprite/sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 150px;
+    height: 119px;
+    background-position: -316px -4px;
+    position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+.day-product__card {
+	@include flex(row, space-around);
+	background-color: $white;
+	padding: 15px;
+	flex-grow: 1;
+	
+}
+
+
+
+.day-product__link {
+	@include flex(row, center);
+
+}
+
+.day-product__link__box{
+	align-self: center;
+}
+.day-product__title {
+	@include font(18px, 600, $gray);
+	max-width: 200px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.day-product__title:hover{
+	color:$orange;
+}
