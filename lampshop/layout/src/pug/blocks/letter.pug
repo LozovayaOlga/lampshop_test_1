@@ -1,2 +1,10 @@
 section.letter
 	.container.letter-color
+		.letter-wrap
+			p.letter-text Подпишись
+				span на рассылку,чтобы быть в курсе последних скидок
+			form#letter-form(action="#", method="post", name="letter", title="введите ваш Email")
+				
+				label.letter-label.icon.icon-letter_small(for="letter__input")
+				input#letter__input(type="email", placeholder="Введите ваш Email", size="25", required)
+				input.letter__sumbit(type="submit", value="Подписаться")

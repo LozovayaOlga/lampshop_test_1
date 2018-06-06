@@ -33,6 +33,7 @@
     position: absolute;
 	top: 0;
 	left: -135px;
+	transition: top 0.8ms ease-out 0.8ms;
 }
 
 .title-box__description{
@@ -40,6 +41,17 @@
 	text-transform: lowercase;
 }
 
+.new-product__title-box:hover{
+	.title-box__text--color{
+		color:$gray;
+	}
+	.title-box__text {
+		color:$orange;
+	}
+	.title-box__text::before{
+		top: 10px;
+	}
+}
 
 
 

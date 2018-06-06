@@ -1,0 +1,70 @@
+@import "vars.scss";
+
+.letter {
+	margin-bottom: 90px;
+	
+}
+.letter-color{
+	background-color: $white;
+	
+}
+
+.letter-wrap{
+	@include flex(row,space-between);
+	padding: 30px 30px;
+}
+
+.letter-text {
+	@include font(18px,600,$orange);
+	
+}
+
+.letter-text span {
+	@include font(15px,600,$gray);
+	margin-left: 15px;
+	display: inline-block;
+}
+
+#letter-form {
+	@include flex(row,flex-end);
+	align-items: center;
+	flex-wrap: nowrap;
+	min-width: 50%;
+}
+
+.letter-label {
+
+	margin-right: 5px;
+}
+
+#letter__input{
+	border: 0px;
+	background: transparent;
+	outline: none;
+	@include font(14px,400,$gray);
+	padding: 5px;
+	margin-right: 10px;
+}
+
+#letter__input::placeholder {
+	color: lighten($gray,50%);
+}
+#letter__input:focus {
+	background-color: $blue;
+}
+
+.letter__sumbit{
+	padding: 15px 10px;
+	@include font(14px,400,$white);
+	background: $orange;
+	border:none;
+	outline: none;
+}
+
+.letter__sumbit:hover {
+	box-shadow: 0 0 0 2px $white, 0 0 0 4px $orange;  
+}
+
+.letter__sumbit:active {
+	box-shadow: 0 0 0 1px $orange  inset, 0 0 0 2px $white inset;
+}
