@@ -1,0 +1,45 @@
+@import "vars.scss";
+
+.hit-product {
+	padding-bottom: 90px;
+}
+
+.hit-product .title-box__text::before {		background-position: -125px -61px;
+}
+
+.hit-product__card {
+	@include flex(row, space-around);
+	background-color: $white;
+	padding: 3px;
+	margin: 1px;
+	max-width: 280px;
+}	
+
+.day-product__link__box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.card-buy_small {
+	width: 22px;
+    height: 21px;
+    background-position: -122px -4px;
+}
+
+
+	.card__price:hover {
+		color:$gray;
+	}
+	.card-buy_small:hover {
+		background-position: -92px -4px;
+	}
+
+.hit-product__card .day-product__title {
+	max-width: 120px;
+	font-size: 15px;
+}
+.hit-product__card .card__price {
+	font-size: 15px;
+}
