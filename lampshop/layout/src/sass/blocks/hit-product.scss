@@ -29,12 +29,8 @@
 }
 
 
-	.card__price:hover {
-		color:$gray;
-	}
-	.card-buy_small:hover {
-		background-position: -92px -4px;
-	}
+	
+	
 
 .hit-product__card .day-product__title {
 	max-width: 120px;
@@ -42,4 +38,22 @@
 }
 .hit-product__card .card__price {
 	font-size: 15px;
+}
+.card__price:hover {
+		color:$gray;
+	}
+
+.card-buy_small:hover {
+		background-position: -92px -4px;
+	}
+
+.hit-product__card:hover{
+	.day-product__link {
+		filter:brightness(1.2);
+		
+	}
+	.day-product__title{
+		color:$orange;
+	}
+	
 }
