@@ -10,13 +10,14 @@ html(lang="ru")
 		link(rel="icon" type="image/png" href="favicon.png" sizes="128x128")
 		title тест LampShop
 	body
-		h1.none магазин светильников LampShop
-		include blocks/header.pug
-		include blocks/jumbotron.pug
-		include blocks/new-product.pug
-		include blocks/day_product.pug
-		include blocks/hit-product.pug
-		include blocks/letter.pug
+		.footer__down
+			include blocks/header.pug
+			include blocks/jumbotron.pug
+			include blocks/new-product.pug
+			include blocks/day_product.pug
+			include blocks/hit-product.pug
+			include blocks/letter.pug
+		include blocks/footer.pug
 
 		script(type="text/javascript" src="js/jquery-3.1.1.min.js")
 		script(type="text/javascript" src="js/slick.min.js")
