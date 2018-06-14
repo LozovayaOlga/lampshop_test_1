@@ -1,0 +1,48 @@
+@import "vars.scss";
+
+.footer {
+	padding: 50px 0;
+	background-color: $white;
+}
+
+.footer__wrap {
+	@include flex(row, space-around);
+	
+}
+
+.copyrighted {
+	@include font(12px, 400, $gray);
+	margin-top: 15px;
+}
+
+.footer_culomn1 {
+	@include flex(column, space-around);
+	align-items: center;
+	
+}
+
+.footer_culomn2 a, .footer_culomn3 a {
+	margin-top: 10px;
+	transition: color 0.2s ease-in;
+}
+
+.footer_culomn2 a:hover, .footer_culomn3 a:hover{
+	color:$orange;
+}
+
+.footer_culomn2 a:active, .footer_culomn3 a:active{
+	transform: scale(.9, .9);
+}
+
+.footer_culomn4 {
+	@include flex(column, space-around);
+	align-items:flex-start ;
+}
+
+.footer__phone::before {
+	margin-left: 0;
+}
+
+.footer__letter::before{
+	margin-left: 0;
+}
